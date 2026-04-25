@@ -10,7 +10,7 @@ import threading
 
 # Fetch historical data from the 1Win Aviator API
 def fetch_history():
-    url = "https://aviatorengine.1win.com/Aviator/GetGameHistory"  # Replace with actual endpoint
+    url = "https://aviatorengine.betway.com/Aviator/GetGameHistory"  # Replace with actual endpoint
     headers = {"User-Agent": "Mozilla/5.0"}
     try:
         response = requests.get(url, headers=headers, timeout=5)
